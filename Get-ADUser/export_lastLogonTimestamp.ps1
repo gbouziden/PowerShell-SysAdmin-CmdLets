@@ -9,3 +9,7 @@
 
 
 PS C:\Windows\system32> Get-ADUser -Filter * -SearchBase "OU=org_unit,OU=org_unit,DC=domain,DC=domain,DC=domain" -ResultPageSize 0 -Prop CN, lastLogonTimestamp | Select CN,@{n="lastLogonDate";e={[datetime]::FromFileTime($_.lastLogonTimestamp)}} | Export-CSV -NoType -LiteralPath "$home\Desktop\filename.csv"
+
+
+
+
