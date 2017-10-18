@@ -1,2 +1,2 @@
 # PowerShell-SysAdmins-CmdLets
-An ever-updating list of useful CmdLets for System Administrators
+An ever-updating list of useful scripts and CmdLets for System Administrators
